@@ -1,0 +1,7 @@
+project: biscuit-rust
+target: parse-source
+
+cmds:
+  - cmd: /parse_source
+  - cmd: /parse_source_no_inst @@
+    libfuzzer: false
